@@ -8,6 +8,7 @@
 
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
 }
 .institucional__titulo{
     color: var(--fuente-ceniza-oscuro);
@@ -39,7 +40,7 @@
 .institucional__contacto-email{
     color: var(--fuente-ceniza-oscuro);
     text-decoration: underline;
-    display: flex;
+    display: block;
 }
 .institucional__video{
     width: 100vw;
