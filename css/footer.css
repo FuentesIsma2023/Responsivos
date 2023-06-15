@@ -19,6 +19,7 @@
     color: var(--background-blanco);
     text-align: center;
     line-height: 3;
+    text-transform: capitalize;
     font-family: var(--open-sans);
 }
 .footer__enlace{
