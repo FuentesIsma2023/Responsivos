@@ -51,6 +51,7 @@
 
 .tarjetas__contenido {
     padding: 0 15%;
+    text-align: center;
 }
 
 .tarjetas__precio {
@@ -70,13 +71,9 @@
 .tarjetas__boton {
     font-size: 1.2rem;
     font-weight: 700;
-
     width: 100%;
-
     align-self: center;
-
     padding: .75rem 2rem;
-
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -103,4 +100,14 @@
 
 .tarjetas__boton--mega {
     border-color: var(--planes-card-mega);
+}
+@media screen and (min-width:1024px) {
+    .planes__tarjetas{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .tarjetas{
+        max-width: 300px;
+    }
 }

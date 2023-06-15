@@ -15,23 +15,15 @@
     border-bottom: 1px solid #103D4A;
 
     position: absolute;
-    /* border: solid wheat; */
 }
 
 .head__logo {
     margin-bottom: 1rem;
-    /* border: solid wheat; */
 }
 
 .head__navegacion {
     text-align: center;
 }
-/* ul{
-    display: flex;
-    justify-content: space-around;
-    width: 550px;
-    
-} */
 .head__enlace {
     font-size: 1.1rem;
 
@@ -40,4 +32,11 @@
     margin-right: .7rem;
     margin-bottom: .7rem;
     margin-left: .7rem;
+}
+@media screen and (min-width:1024px) {
+    .head{
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
 }

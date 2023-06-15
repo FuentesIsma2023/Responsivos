@@ -19,8 +19,20 @@
     color: var(--background-blanco);
     text-align: center;
     line-height: 3;
+    font-family: var(--open-sans);
 }
 .footer__enlace{
     display: inline-block;
     margin: 0 .5rem .7rem;
+}
+@media screen and (min-width: 1024px) {
+    .footer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer__navigation{
+        text-align: left;
+        min-width: 600px;
+    }
 }
