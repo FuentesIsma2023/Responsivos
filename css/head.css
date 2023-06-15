@@ -33,6 +33,9 @@
     margin-bottom: .7rem;
     margin-left: .7rem;
 }
+.head__enlace:hover{
+    color: var(--boton-rojo);
+}
 @media screen and (min-width:1024px) {
     .head{
         flex-direction: row;

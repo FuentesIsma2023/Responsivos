@@ -33,6 +33,10 @@ body{
     border: 1px solid var(--boton-rojo);
     border-radius: 5px;
 }
+.boton:hover{
+    background-color: var(--planes-card-mega);
+    color: var(--background-ceniza-claro);
+}
 @media screen and (min-width:1024px) {
     .container{
         padding-left: calc((100%-940px)/2);

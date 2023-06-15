@@ -29,8 +29,6 @@
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-    
-    
 }
 .sobre_nosotros__texto--destacado{
     color: var(--fuente_ceniza_oscuro);
@@ -55,5 +53,7 @@
     }
     .sobre_nosotros__imagen{
         display: block;
+        border-radius: 50px;
+        padding: 15px 0px;
     }
 }
